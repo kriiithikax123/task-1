@@ -1,0 +1,47 @@
+# Nmap 7.97 scan initiated Tue Jul  1 17:11:09 2025 as: nmap -sS -oN scan_results.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0037s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+5500/tcp  open  hotline
+9000/tcp  open  cslistener
+10004/tcp open  emcrmirccd
+MAC Address: 50:2B:73:98:60:80 (Tenda Technology,Ltd.Dongguan branch)
+
+Nmap scan report for 192.168.0.105
+Host is up (0.018s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+8800/tcp open  sunwebadmin
+MAC Address: 2C:80:A0:F8:46:62 (Unknown)
+
+Nmap scan report for 192.168.0.120
+Host is up (0.0039s latency).
+All 1000 scanned ports on 192.168.0.120 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: B4:0A:D8:58:A8:6C (Sony Interactive Entertainment)
+
+Nmap scan report for 192.168.0.178
+Host is up (0.0068s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+9080/tcp open  glrpc
+MAC Address: EA:BF:05:9B:C4:CA (Unknown)
+
+Nmap scan report for 192.168.0.179
+Host is up (0.0089s latency).
+All 1000 scanned ports on 192.168.0.179 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 56:86:18:C6:CA:18 (Unknown)
+
+Nmap scan report for 192.168.0.183
+Host is up (0.00s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+8090/tcp open  opsmessaging
+
+# Nmap done at Tue Jul  1 17:11:51 2025 -- 256 IP addresses (6 hosts up) scanned in 41.56 seconds
